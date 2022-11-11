@@ -21,7 +21,7 @@ public class Post {
 
 
     @Column(name = "\"usernameKey\"")
-    private String usernameKey;
+    private String username;
 
 //    constructors
 
@@ -31,11 +31,11 @@ public class Post {
 
 //    parameterized constructors
 
-    public Post(String postID, String postType, String post, String usernameKey) {
+    public Post(String postID, String postType, String post, String username) {
         this.postID = postID;
         this.postType = postType;
         this.post = post;
-        this.usernameKey = usernameKey;
+        this.username = username;
     }
 
     //    getter for postID
@@ -69,13 +69,13 @@ public class Post {
     }
 
     //    getter for usernameKey
-    public String getUsernameKey() {
-        return this.usernameKey;
+    public String getUsername() {
+        return this.username;
     }
 
     //    setter for usernameKey
-    public void setUsernameKey(String usernameKey) {
-        this.usernameKey = usernameKey;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
 
