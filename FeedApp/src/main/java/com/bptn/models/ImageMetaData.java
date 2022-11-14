@@ -118,5 +118,20 @@ public class ImageMetaData {
         this.postKey = postKey;
     }
 
+	public void setImageName(Object imageName2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setImageFormat(Object imageName2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void SetResolution(Object resolution2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }
